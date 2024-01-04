@@ -1,0 +1,82 @@
+body{
+    line-height: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #f3f3e7;
+}
+
+.section{
+    background-color: #d8dbce;
+    border:5px solid #babea7;
+}
+
+.section__text{
+    text-align: center;
+    padding: 10px;
+}
+
+.section__button{
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.section__button button{
+    border:3px solid #babea7;
+    background-color: #e8ebde;
+    border-radius: 15px;
+    padding:7px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.modal{
+    display:none;
+}
+
+.modal__main{
+    background-color: #d8dbce;
+    border:5px solid #babea7;
+    position: fixed;
+    top:13%;
+    right:1%;
+    overflow: auto;
+}
+
+.modal__close{
+    text-align: end;
+    padding: 3px;
+}
+
+.modal__close button{
+    border:3px solid #babea7;
+    background-color: #e8ebde;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.modal__title{
+    padding:15px;
+}
+
+.modal__form-1{
+    padding:10px;
+}
+
+.modal__form-2{
+    padding:10px;
+}
+
+.modal__button{
+    padding:10px ;
+    text-align: end;
+}
+
+.modal__button button{
+    border:3px solid #babea7;
+    background-color: #e8ebde;
+    border-radius: 15px;
+    padding:7px;
+    font-size: large;
+    cursor: pointer;
+}
